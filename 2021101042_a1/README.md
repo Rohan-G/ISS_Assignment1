@@ -1,4 +1,8 @@
 # README
+
+## GitHub Link
+https://github.com/Rohan-G/ISS_Assignment1
+
 ## Pre-requisites
 * Add quotes.txt to the folder
 * Open the folder on terminal by using the following command:
