@@ -4,7 +4,7 @@
 wc --bytes "$1"|awk '{print $1}'
 
 #b
-wc -l "$1"|awk '{print $1}' 
+wc -l "$1"|awk '{print $1}'
 
 #c
 wc --w "$1"|awk '{print $1}' 
@@ -25,5 +25,6 @@ while read -r line;
 do
     echo $line | tr " " "\n" | tr -cd '[:alnum:]\n'"'"''>>"file1.txt"
 done <"$1"
-sort file1.txt | uniq -cd | awk '{print "Word: <" $2 "> - Count of repetition: [" (($1-1)) "]"}'
+#sort file1.txt | uniq -cd | awk '{print "Word: <" $2 "> - Count of repetition: [" (($1-1)) "]"}'
+awk '{ original[$0]++ }; END { for(i in original) { if(original[i] != 1) { print "Word: <" i "> - Count of repetition: [" ((original[i]-1)) "]" } } }' file1.txt
 rm "file1.txt"

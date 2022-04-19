@@ -13,24 +13,24 @@ $ cd <file path>
 ## Q1
 * Type the following commands on terminal:
 ```
-$ chmod +x Q1.sh
-$ ./Q1.sh
+$ chmod +x q1.sh
+$ ./q1.sh
 ```
 * The output for both parts should appear on terminal
 
 ## Q2
 * Type the following commands on terminal:
 ```
-$ chmod +x Q2.sh
-$ ./Q2.sh
+$ chmod +x q2.sh
+$ ./q2.sh
 ```
 * The output should come on a separate file called "speech.txt" in the folder
 
 ## Q3
 * Type the following commands on terminal:
 ```
-$ chmod +x Q3.sh
-$ ./Q3.sh <name of file to perform functions on>
+$ chmod +x q3.sh
+$ ./q3.sh <name of file to perform functions on>
 ```
 * The output for all parts should appear on terminal in the following format:
 
@@ -45,8 +45,8 @@ Word: <word> - Count of repetition: [no of repetitions (excluding the first occu
 ## Q4
 * Type the following commands on terminal:
 ```
-$ chmod +x Q4.sh
-$ ./Q4.sh
+$ chmod +x q4.sh
+$ ./q4.sh
 ```
 * Type the inputs as a series of numbers separated by commas (no spaces)
 * The output should appear as a series of numbers separated by spaces
@@ -54,8 +54,8 @@ $ ./Q4.sh
 ## Q5
 * Type the following commands on terminal:
 ```
-$ chmod +x Q5.sh
-$ ./Q5.sh
+$ chmod +x q5.sh
+$ ./q5.sh
 ```
 * Type the word (with an even number of letters) on which the functions must be performed
 * The output should appear in the following format:
